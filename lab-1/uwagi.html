@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uwagi o formularzach HTML</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <h1>Uwagi o formularzach HTML</h1>
+
+    <div class="section">
+        <h2>Wprowadzenie</h2>
+        <p>Formularze HTML stanowią podstawowy sposób interakcji użytkownika ze stroną internetową. Umożliwiają przekazywanie danych do serwera, zapisywanie informacji i realizowanie akcji, takich jak logowanie, wysyłanie wiadomości czy składanie zamówień.</p>
+    </div>
+
+    <div class="section">
+        <h2>Zalety formularzy HTML</h2>
+        <ul>
+            <li>Prosta składnia i pełna zgodność ze standardami HTML.</li>
+            <li>Możliwość działania bez JavaScript — wystarczy obsługa po stronie serwera (np. PHP, Python, Node.js).</li>
+            <li>Dostępność i kompatybilność z czytnikami ekranu oraz technologiami asystującymi.</li>
+            <li>Bezpieczniejsze w kontekście błędów klienta — logika działa po stronie serwera.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Wady i ograniczenia</h2>
+        <ul>
+            <li>Brak dynamicznych walidacji i reakcji na dane bez JavaScript.</li>
+            <li>Brak możliwości aktualizacji części strony bez przeładowania (brak AJAX / Fetch API).</li>
+            <li>Ograniczona interaktywność oraz mniejsze możliwości UX.</li>
+            <li>W przypadku dużych aplikacji formularze bez JS są trudniejsze w utrzymaniu i mniej wygodne dla użytkownika.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Kiedy warto używać formularzy HTML</h2>
+        <ul>
+            <li>Na prostych stronach kontaktowych, formularzach zamówień lub opiniach.</li>
+            <li>Gdy priorytetem jest prostota i zgodność z przeglądarkami.</li>
+            <li>W miejscach, gdzie dane i tak przetwarzane są wyłącznie po stronie serwera.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Kiedy unikać formularzy bez JavaScript</h2>
+        <ul>
+            <li>W aplikacjach webowych wymagających dynamicznej interakcji lub natychmiastowych reakcji użytkownika.</li>
+            <li>Gdy konieczna jest walidacja danych po stronie klienta w czasie rzeczywistym.</li>
+            <li>W systemach z wieloetapowym przepływem formularzy (np. kreatory, loginy wieloskładnikowe).</li>
+        </ul>
+    </div>
+</body>
+</html>
